@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+<!--    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/nexoto_gt?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">root</property>-->
+    <property name="hibernate.connection.url">jdbc:mysql://174.138.59.82:3306/nexoto_gt?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">QuetzalProlazo#1234</property>
+    <property name="hibernate.c3p0.validate">true</property>
+    <property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+    <property name="hibernate.c3p0.acquire_increment">1</property>
+    <property name="hibernate.enable_lazy_load_no_trans">true</property>
+    <property name="hibernate.temp.use_jdbc_metadata_default">false</property>
+    <property name="hibernate.classloading.use_current_tccl_as_parent">false</property>
+    <mapping class="com.nexoto.beans.StatusViaje"/>
+    <mapping class="com.nexoto.beans.EventoViaje"/>
+    <mapping class="com.nexoto.beans.Tarifatiempo"/>
+    <mapping class="com.nexoto.beans.BitacoraViaje"/>
+    <mapping class="com.nexoto.beans.TipoUsuario"/>
+    <mapping class="com.nexoto.beans.Viaje"/>
+    <mapping class="com.nexoto.beans.Empresa"/>
+    <mapping class="com.nexoto.beans.Tarifa"/>
+    <mapping class="com.nexoto.beans.Tarifadistancia"/>
+    <mapping class="com.nexoto.beans.Pais"/>
+    <mapping class="com.nexoto.beans.UsuarioEmpresa"/>
+    <mapping class="com.nexoto.beans.UbicacionSocio"/>
+    <mapping class="com.nexoto.beans.Direccion"/>
+    <mapping class="com.nexoto.beans.UnidadMedida"/>
+    <mapping class="com.nexoto.beans.Cotizacion"/>
+    <mapping class="com.nexoto.beans.Vehiculo"/>
+    <mapping class="com.nexoto.beans.StatusEmpresa"/>
+    <mapping class="com.nexoto.beans.EstadoSocio"/>
+    <mapping class="com.nexoto.beans.SubEmpresa"/>
+    <mapping class="com.nexoto.beans.Estado"/>
+    <mapping class="com.nexoto.beans.UsuarioSubEmpresa"/>
+    <mapping class="com.nexoto.beans.TipoPagoUsuario"/>
+    <mapping class="com.nexoto.beans.TipoVehiculo"/>
+    <mapping class="com.nexoto.beans.StatusUsuario"/>
+    <mapping class="com.nexoto.beans.Usuario"/>
+  </session-factory>
+</hibernate-configuration>

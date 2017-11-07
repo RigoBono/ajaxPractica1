@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="nexoto_gt"/>
+  <table-filter match-name="unidadMedida"/>
+  <table-filter match-name="viaje"/>
+  <table-filter match-name="usuarioSubEmpresa"/>
+  <table-filter match-name="tarifa"/>
+  <table-filter match-name="eventoViaje"/>
+  <table-filter match-name="ubicacionSocio"/>
+  <table-filter match-name="estadoSocio"/>
+  <table-filter match-name="usuarioEmpresa"/>
+  <table-filter match-name="direccion"/>
+  <table-filter match-name="cotizacion"/>
+  <table-filter match-name="tipoPagoUsuario"/>
+  <table-filter match-name="tipoUsuario"/>
+  <table-filter match-name="tipoVehiculo"/>
+  <table-filter match-name="statusUsuario"/>
+  <table-filter match-name="tarifatiempo"/>
+  <table-filter match-name="usuario"/>
+  <table-filter match-name="bitacoraViaje"/>
+  <table-filter match-name="empresa"/>
+  <table-filter match-name="subEmpresa"/>
+  <table-filter match-name="statusViaje"/>
+  <table-filter match-name="vehiculo"/>
+  <table-filter match-name="pais"/>
+  <table-filter match-name="tarifadistancia"/>
+  <table-filter match-name="estado"/>
+  <table-filter match-name="statusEmpresa"/>
+</hibernate-reverse-engineering>
